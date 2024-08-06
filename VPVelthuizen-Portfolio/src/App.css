@@ -40,3 +40,174 @@
 .read-the-docs {
   color: #888;
 }
+
+/* End of vite created css */
+/* Adding the default styling for the whole page */
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Creating the flexbox for the header so that everything fits in the space */
+header {
+  width: auto;
+  display: flex;
+  background-color: grey;
+  color: white;
+  justify-content: space-between;
+  padding:20px;
+  font-size:32px;
+}
+
+/* Remove the blue color and underline from the links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styling the link formation in the header */
+.links {
+  float:right;
+  display: flex;
+  gap:30px;
+}
+
+/* Formatting body as a whole */
+.bodysection {
+  display: flex;
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
+  background-color: lightgray;
+}
+
+/* Formatting the titles of the body sections */
+.bodytitle {
+  font-size: 24px;
+  width: 125px;
+  text-align: right;
+  box-shadow: 1px 0px 0px 0px;
+  padding-right: 20px;
+  min-width: 125px;
+}
+
+/* Formating the content in the body */
+.content {
+  width: 80%;
+  padding-left: 25px;
+  list-style: none;
+}
+
+/* Formatting picture of myself */
+.selfie {
+  margin-left: 25px;
+  max-height: 276px;
+}
+
+/* formatting first link in Work section */
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+/* Formatting the first photo */
+.pic1 {
+  padding-left: 50px;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Formatting label of first photo */
+.label1 {
+  font-size: 24px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+/* Formatting the rest of the photos */
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* This will keep the pictures evenly spaced */
+.pics {
+  justify-content: space-around;
+}
+
+.imgs {
+  align-items: center;
+  padding:20px;
+  justify-content: center;
+}
+
+/* Formatting the labels */
+.label {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Adding color to the links in the header */
+.links a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+/* Formatting the page footer */
+.footer {
+  height: 32px;
+  width: auto;
+  display: flex;
+  background-color: grey;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 30px;
+}
+
+/* The following css will adjust how things look when the page is smaller so that it looks appropriate on mobile screens */
+@media screen and (max-width: 768px) {
+
+/* Set everything to center alignment for aesthetic */
+* {
+  text-align: center;
+}
+
+/* Make all the objects form a column */
+header, .links, .container1, .body, .container2, .bodysection, .footer {
+  flex-direction: column;
+  padding: 10px, 0px;
+  align-items: center;
+}
+
+/* Remove the gap between the now vertical links, it is no longer needed */
+.links {
+  gap: 0px;
+}
+
+/* Removing some padding so that everything is center aligned */
+.pic1, .content {
+  padding: 0px;
+  justify-content: center;
+  max-width: 100%;
+}
+
+/* Removing the format for these parts including box shadow etc.. */
+.bodytitle {
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px;
+  padding: 10px, 0px;
+  min-width: 0px;
+}
+
+.content {
+  width: auto;
+  padding: 10px, 0px;
+}
+}
