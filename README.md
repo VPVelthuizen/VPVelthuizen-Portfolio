@@ -24,7 +24,7 @@ To install this project,
 
 
 ## Contribution
-Please reach out to me using the contact information at the bottom of thiis REAFDME
+Please reach out to me using the contact information at the bottom of thiis README
 
 ## Testing
 
