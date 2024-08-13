@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/projects/projects';
-import Resume from './pages/resume';
+import Resume from './pages/resume/resume';
 
 export default function App() {
   return (

@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    display: block;
+    white-space: pre-line;
+}
+
+.download-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
