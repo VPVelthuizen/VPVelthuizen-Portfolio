@@ -1,11 +1,14 @@
 import React from 'react';
+import '../css/project.css';
 
 const Project = ({ title, image, alt, link }) => {
     return (
-        <div>
-            <img src={image} alt={alt} />
-            <a href={link}>{title}</a>
+        <section class="container">
+        <div class="unit">
+            <img src={image} alt={alt} class="img"/>
+            <a href={link} class="label">{title}</a>
         </div>
+        </section>
     );
 };
 

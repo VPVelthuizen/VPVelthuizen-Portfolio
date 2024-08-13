@@ -97,6 +97,8 @@ a {
   align-items: center;
   padding:20px;
   justify-content: center;
+  max-width: 300px;
+  max-height: 100px;
 }
 
 /* Formatting the labels */

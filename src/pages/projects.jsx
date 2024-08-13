@@ -3,18 +3,19 @@ import { Link } from "react-router-dom";
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Project from '../components/project';
+import image from '../assets/projectIndex';
 
 const Projects = () => {
     const projects = [
         {
             title: "Celsiux",
-            image: "./assets/Celsiux.png",
+            image: image.Celsiux,
             alt: "Celsiux website",
             link: "https://vpvelthuizen.github.io/Celsiux"
         },
         {
             title: "CommUnity Connect",
-            image: "./assets/CommUnity.png",
+            image: image.CommUnity,
             alt: "CommUnity Connect website",
             link: "https://community-connect-img3.onrender.com/"
         },
