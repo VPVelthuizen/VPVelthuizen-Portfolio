@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .unit {
+    width: 32%;
+    justify-content: center;
+  }
+
+  .img {
+    width: 300px;
+    height: 100px;
+  }
+
+  .label {
+    font-size: 24px;
+  }
