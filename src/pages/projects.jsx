@@ -19,6 +19,30 @@ const Projects = () => {
             alt: "CommUnity Connect website",
             link: "https://community-connect-img3.onrender.com/"
         },
+        {
+            title: "Horiseon",
+            image: image.Horiseon,
+            alt: "Horiseon website",
+            link: "https://vpvelthuizen.github.io/Horiseon-Refactoring"
+        },
+        {
+            title: "Kanban",
+            image: image.Kanban,
+            alt: "Kanban website",
+            link: "https://vpvelthuizen.github.io/Kanban"
+        },
+        {
+            title: "MyBlog",
+            image: image.MyBlog,
+            alt: "MyBlog website",
+            link: "https://vpvelthuizen.github.io/MyBlog"
+        },
+        {
+            title: "Nomad Notes",
+            image: image.NomadNotes,
+            alt: "Nomad Notes website",
+            link: "https://nomadnotes-3v1b.onrender.com/"
+        }
     ];
 
     return (
