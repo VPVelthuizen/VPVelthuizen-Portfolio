@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Header from '../components/header';
-import Footer from '../components/footer';
-import Project from '../components/project';
-import image from '../assets/projectIndex';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+import Project from '../../components/project';
+import image from '../../assets/projectIndex';
+import './projects.css';
 
 const Projects = () => {
     const projects = [
@@ -48,9 +49,7 @@ const Projects = () => {
     return (
         <>
             <Header />
-            <section id="Work" className="bodysection">
-                <div className="content">
-                    <div className="container2">
+            <section id="projects">
                         {projects.map((project, index) => (
                             <Project
                              key={index}
@@ -60,8 +59,6 @@ const Projects = () => {
                              link={project.link}
                              />
                         ))}
-                    </div>
-                </div>
             </section>
             <Footer />
         </>
