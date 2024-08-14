@@ -1,0 +1,11 @@
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links img {
+    width: 50px; /* Adjust the size as per your requirement */
+    height: 50px; /* Adjust the size as per your requirement */
+    padding: 10px;
+}
