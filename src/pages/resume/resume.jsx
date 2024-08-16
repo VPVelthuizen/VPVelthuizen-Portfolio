@@ -3,11 +3,12 @@ import { Outlet, Link } from "react-router-dom";
 import Header from '../../components/header'; // Import the Header component
 import Footer from '../../components/footer'; // Import the Footer component
 import './resume.css'; // Import the styles
+import resume from '../../assets/Resume.pdf'; // Import the resume file
 
 const Resume = () => {
     const handleDownload = () => {
         const downloadLink = document.createElement('a');
-        downloadLink.href = '../../assets/Resume.pdf'; // Relative path to your resume image
+        downloadLink.href = resume; // Use the imported resume file directly
         downloadLink.download = 'Resume.pdf'; // Name for the downloaded file
         downloadLink.click();
     };
