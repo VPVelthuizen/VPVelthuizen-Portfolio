@@ -1,8 +1,9 @@
 import React from 'react';
 import { Outlet, Link } from "react-router-dom";
-import Selfie from '../assets/Selfie.jpg';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Selfie from '../../assets/Selfie.jpg';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+import './about.css';
 
 export default function About() {
     return (

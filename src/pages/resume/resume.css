@@ -13,3 +13,28 @@ h2 {
     padding: 10px 20px;
     font-size: 1.2em;
 }
+
+.resume {
+    min-height: calc(100vh - 209px);
+    flex-flow: column wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+.content {
+        justify-content: center;
+        align-items: center;
+    }
+
+@media (max-width: 768px) {
+    .resume {
+        min-height: calc(100vh - 317px);
+    }
+    .Project {
+        width: 90%;
+    }
+}

@@ -135,7 +135,7 @@ a {
 }
 
 /* Make all the objects form a column */
-header, .links, .container1, .body, .container2, .bodysection, .footer {
+header, .links, .container1, .body, .container2, .bodysection {
   flex-direction: column;
   padding: 10px, 0px;
   align-items: center;
