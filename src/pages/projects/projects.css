@@ -1,6 +1,22 @@
 #projects {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: lightgrey;
+    min-height: calc(100vh - 169px);
+}
+
+.Project {
+    width: 30%
+}
+
+@media (max-width: 905) {
+    #projects {
+        flex-flow: column wrap;
+        min-height: calc(100vh - 317px);
+        padding: 0px 10px;
+    }
+    .Project {
+        padding: 10px 0px;
+    }
 }
