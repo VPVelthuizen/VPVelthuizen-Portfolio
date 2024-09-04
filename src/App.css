@@ -167,4 +167,8 @@ header, .links, .container1, .body, .container2, .bodysection {
   width: auto;
   padding: 10px, 0px;
 }
+
+.footer {
+  font-size: 18px;
+  padding: 10px, 0px;}
 }

@@ -2,6 +2,11 @@ h2 {
     text-align: center;
     display: block;
     white-space: pre-line;
+    padding: 10px 0px;
+}
+
+p {
+    padding: 12px;    
 }
 
 .download-button {
