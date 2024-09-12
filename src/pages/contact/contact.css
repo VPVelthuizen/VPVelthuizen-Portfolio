@@ -2,6 +2,11 @@
     margin-right: 20px;
 }
 
-#ContactInformation{
+#ContactInformation {
     min-height: calc(100vh - 209px);
+}
+
+a {
+    color: blue;
+    cursor: pointer;
 }
