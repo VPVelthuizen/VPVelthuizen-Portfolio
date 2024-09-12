@@ -19,7 +19,7 @@ const Projects = () => {
             title: "CommUnity Connect",
             image: image.CommUnity,
             alt: "CommUnity Connect website",
-            link: "https://community-connect-img3.onrender.com/",
+            link: "https://github.com/Noah-Manno/community-connect",
             info: "CommUnity Connect is a website that connects local organizations so that they can work together! This one comes from a personal passion of mine to help my local community. We used an SQL database, and express to make API and html routes."
         },
         {
@@ -56,19 +56,19 @@ const Projects = () => {
         <>
             <Header />
             <div className='bodysection'>
-            <span className="bodytitle">Click the project image to go to the website or github page!</span>
-            <section id="projects" className='content'>
-                        {projects.map((project, index) => (
-                            <Project
-                             key={index}
-                             title={project.title}
-                             image={project.image}
-                             alt={project.alt}
-                             link={project.link}
-                             info={project.info}
-                             />
-                        ))}
-            </section>
+                <span className="bodytitle">Click the project image to go to the website or github page!</span>
+                <section id="projects" className='content'>
+                    {projects.map((project, index) => (
+                        <Project
+                            key={index}
+                            title={project.title}
+                            image={project.image}
+                            alt={project.alt}
+                            link={project.link}
+                            info={project.info}
+                        />
+                    ))}
+                </section>
             </div>
             <Footer />
         </>
