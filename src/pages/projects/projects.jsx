@@ -37,24 +37,25 @@ const Projects = () => {
             info: "Celsiux is a website that provides the current weather and forecast for any location in the world. It uses the OpenWeather API to get the weather data. It involves using multiple API calls to gather the correct information for the user."
         },
         {
-            title: "Horiseon",
-            image: image.Horiseon,
-            alt: "Horiseon website",
-            link: "https://vpvelthuizen.github.io/Horiseon-Refactoring",
-            info: "Horiseon is a non-functioning website that we refactored to make it more accessible and optimized for search engines. This was one of our earlier projects but shows how we can improve existing code."
+            title: "EmployeEasy",
+            image: image.EmployeEasy,
+            alt: "EmployeEasy website",
+            link: "https://github.com/VPVelthuizen/EmployeEasy",
+            info: "This link will take you to the github page showing the code for EmployeEasy. EmployeEasy is an application that interacts with a MySQL database to manage a company's employees. It uses inquirer to prompt the user for information and MySQL to store and retrieve data."
         },
         {
-            title: "Kanban",
-            image: image.Kanban,
-            alt: "Kanban website",
-            link: "https://vpvelthuizen.github.io/Kanban",
-            info: "Kanban is a website that allows you to create and manage tasks using the Kanban method."
+            title: "Rocky Territory",
+            image: image.RockyTerritory,
+            alt: "RockyTerritory website",
+            link: "https://github.com/VPVelthuizen/Rocky-Territory",
+            info: "This link will take you to the GitHub page with the code for Rocky Territory. This is an application that uses a MongoDB database to run a social media that has users, posts, and reactions."
         }
     ];
 
     return (
         <>
             <Header />
+            <div className='bodysection'>
             <span className="bodytitle">Click the project image to go to the website or github page!</span>
             <section id="projects" className='content'>
                         {projects.map((project, index) => (
@@ -68,6 +69,7 @@ const Projects = () => {
                              />
                         ))}
             </section>
+            </div>
             <Footer />
         </>
     );

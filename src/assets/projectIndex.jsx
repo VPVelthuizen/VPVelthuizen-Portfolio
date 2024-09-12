@@ -1,16 +1,16 @@
 import React from 'react';
 import Celsiux from './Celsiux.png';
 import CommUnity from './CommUnity.png';
-import Horiseon from './Horiseon.png';
-import Kanban from './Kanban.png';
+import EmployeEasy from './EmployeEasy.png';
+import RockyTerritory from './RockyTerritory.png';
 import MyBlog from './MyBlog.png';
 import NomadNotes from './NomadNotes.png';
 
 const images = {
     Celsiux: Celsiux,
     CommUnity: CommUnity,
-    Horiseon: Horiseon,
-    Kanban: Kanban,
+    EmployeEasy: EmployeEasy,
+    RockyTerritory: RockyTerritory,
     MyBlog: MyBlog,
     NomadNotes: NomadNotes
 };
