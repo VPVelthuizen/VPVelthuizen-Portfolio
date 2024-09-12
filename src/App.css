@@ -159,8 +159,15 @@ header, .links, .container1, .body, .container2, .bodysection {
   width: 100%;
   text-align: center;
   box-shadow: 0px 0px 0px 0px;
-  padding: 10px, 0px;
+  padding-right: 0px;
   min-width: 0px;
+  margin: 0px;
+}
+
+.selfie {
+  margin-left: 0px;
+  max-height: 100%;
+  padding: 15px 0px;
 }
 
 .content {
