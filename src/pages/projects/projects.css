@@ -10,6 +10,18 @@
     width: 30%
 }
 
+.img{
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    #projects {
+        flex-flow: column wrap;
+    }
+    .Project {
+        width: 100%;
+    }
+}
+
 @media (max-width: 905) {
     #projects {
         flex-flow: column wrap;
