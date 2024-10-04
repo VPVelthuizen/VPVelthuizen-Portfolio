@@ -18,11 +18,33 @@ const Resume = () => {
             <Header /> {/* Place the Header component here */}
             <section className='resume bodysection'>
                 <button className="download-button" onClick={handleDownload}>Click here to download my resume!</button>
+
+                <section id="Skills">
+                    <h2>SKILLS</h2>
+                    <div className="content">
+                        <ul>
+                            <li>Coding Languages- HTML, CSS, JavaScript</li>
+                            <li>Front End- React, Handlebars, Imported Libraries</li>
+                            <li>Backend- MySQL/Sequelize, MongoDB/Mongoose, GraphQL</li>
+                            <li>Express for servers and API's</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="Education">
+                    <h2>EDUCATION</h2>
+                    <div className="content">
+                        <h3>EdX @ Rutgers University</h3>
+                        <p>Graduated August 2024</p>
+                        <p>Studied modern coding languages and techniques for full-stack web development</p>
+                    </div>
+                </section>
+
                 <section id="Experience">
                     <h2>Experience</h2>
                     <div className="content">
                         <h3>Bridgeport Caribe Youth Leaders, Bridgeport, CT</h3>
-                        <p>August 2020 - Ongoing</p>
+                        <p>August 2020 - August 2024</p>
                         <ul>
                             <li>Taught basic coding classes using the GameMaker program to middle and high school students.</li>
                             <li>Directed and trained associates on facilitating programs in different locations.</li>
@@ -30,7 +52,7 @@ const Resume = () => {
                             <li>Communicated with parents through email or phone.</li>
                         </ul>
                         <h3>Starbucks, Trumbull, CT — Supervisor/Barista</h3>
-                        <p>January 2019 - Ongoing</p>
+                        <p>January 2019 - January 2024</p>
                         <ul>
                             <li>Prepare food, coffee, espresso beverages, maintain a sanitary work environment.</li>
                             <li>Receive customer orders while maintaining a welcoming presence.</li>
@@ -46,28 +68,15 @@ const Resume = () => {
                     </div>
                 </section>
 
-                <section id="Education">
-                    <h2>EDUCATION</h2>
+                <section id="Projects">
+                    <h2>Projects</h2>
                     <div className="content">
-                        <h3>Trumbull High School — High School Diploma</h3>
-                        <p>Graduated June 2013. (Trumbull, CT)</p>
-                        <p>AP classes- Calculus AB, Statistics, Chemistry, Physics C. Achieved a score of 5 on all 5 AP exams.</p>
-                        <p>Swim Team- Was part of either the town or high school swim team every year for 4 years.</p>
-                    </div>
-                </section>
-
-                <section id="Skills">
-                    <h2>SKILLS</h2>
-                    <div className="content">
+                        <h3>Nomad Notes</h3>
                         <ul>
-                            <li>ServeSafe Certified</li>
-                            <li>CPR Certified</li>
-                            <li>Received Diversity Training/Hands of Peace</li>
-                            <li>Basic Construction Skills</li>
-                            <li>Experience with removal of invasive species/trail Building</li>
-                            <li>Red Cross Emergency Shelter Certified</li>
-                            <li>Experience as part of a team</li>
-                            <li>Telephone reception experience</li>
+                            <li>Website developed by a team of 5</li>
+                            <li>Front End- React, CSS</li>
+                            <li>Backend- MongoDB/Mongoose, GraphQL</li>
+                            <a href='https://nomadnotes-3v1b.onrender.com/'>Check it out here!</a>
                         </ul>
                     </div>
                 </section>
@@ -76,8 +85,7 @@ const Resume = () => {
                     <h2>AWARDS</h2>
                     <div className="content">
                         <ul>
-                            <li>AP Merit Scholar- achieved a score of 5 on 5 different AP exams</li>
-                            <li>Cup Award- Recognized by Starbucks manager as an employee who goes beyond the tasks required</li>
+                            <li>MUG Award- Recognized by Starbucks manager as an employee who goes beyond the tasks required</li>
                         </ul>
                     </div>
                 </section>
