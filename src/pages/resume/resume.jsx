@@ -26,7 +26,7 @@ const Resume = () => {
                             <li>Coding Languages- HTML, CSS, JavaScript</li>
                             <li>Front End- React, Handlebars, Imported Libraries</li>
                             <li>Backend- MySQL/Sequelize, MongoDB/Mongoose, GraphQL</li>
-                            <li>Express for servers and API's</li>
+                            <li>Express for servers and APIs</li>
                         </ul>
                     </div>
                 </section>
@@ -34,7 +34,7 @@ const Resume = () => {
                 <section id="Education">
                     <h2>EDUCATION</h2>
                     <div className="content">
-                        <h3>EdX @ Rutgers University</h3>
+                        <h3>Rutgers University</h3>
                         <p>Graduated August 2024</p>
                         <p>Studied modern coding languages and techniques for full-stack web development</p>
                     </div>
@@ -46,15 +46,15 @@ const Resume = () => {
                         <h3>Bridgeport Caribe Youth Leaders, Bridgeport, CT</h3>
                         <p>August 2020 - August 2024</p>
                         <ul>
-                            <li>Taught basic coding classes using the GameMaker program to middle and high school students.</li>
+                            <li>Taught coding classes through a variety of programs (GameMaker Engine, Codementum, etc.) to middle and high school students.</li>
                             <li>Directed and trained associates on facilitating programs in different locations.</li>
                             <li>Arranged details of running the program and collaborations with other organizations.</li>
-                            <li>Communicated with parents through email or phone.</li>
                         </ul>
                         <h3>Starbucks, Trumbull, CT — Supervisor/Barista</h3>
                         <p>January 2019 - January 2024</p>
                         <ul>
-                            <li>Prepare food, coffee, espresso beverages, maintain a sanitary work environment.</li>
+                            <li>Oversaw teams of 6 workers to run store operations and maintain cleanliness standards.</li>
+                            <li>Prepare food, coffee, espresso beverage, etc.</li>
                             <li>Receive customer orders while maintaining a welcoming presence.</li>
                         </ul>
                         <h3>AmeriCorps NCCC, Sacramento, CA</h3>
